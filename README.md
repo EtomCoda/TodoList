@@ -1,2 +1,3 @@
 # React-Projects
-React project work
+Various React project works
+Documenting my PROGRESS!
