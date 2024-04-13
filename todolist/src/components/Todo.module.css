@@ -1,0 +1,74 @@
+body{
+    /* background: linear-gradient(90deg, rgb(242, 0, 255) 0%,rgb(52, 121, 211) 100%); */
+    background: rgb(207, 202, 194);
+}
+h1{
+    font-family: 'Segoe UI';
+    cursor: pointer;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+
+}
+.todo_button{
+    border-radius: 5px;
+    border: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.todo_input{
+    position: relative;
+    width: 20em;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: 0px;
+
+}
+.todo_input:hover{
+    box-shadow: 2px 1px 12px 1px black;
+    transition: 0.3s;
+    border: 0px;
+    transform: translatey(-3px);
+}
+.todo_button:hover{
+    box-shadow: 2px 1px 12px 1px black;
+    transition: 0.3s;
+    transform: translatey(-3px);
+    cursor: pointer;
+}
+
+.todo {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  padding-left: 5px;
+  margin-top: 30px;
+  margin-left: 34%;
+  width: 30%;
+  background-color: blanchedalmond;
+ border-radius: 10px;
+  border: 1px rgba(rgb(15, 0, 0), rgb(0, 15, 0), rgb(1, 1, 22), 0);
+  
+}
+.todo:hover{
+    box-shadow: 12px 9px 12px 0px rgb(17, 12, 87);
+    transition: 0.3s;
+    transform: translateY(-4px);
+}
+.edits {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  position: absolute;
+  right: 5px;
+  /* background-color: blue; */
+}
+.task {
+  align-content: center;
+}
